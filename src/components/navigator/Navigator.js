@@ -27,9 +27,9 @@ const pages = [{
   component: Contact
 }];
 
-const renderNavBar = (item) => <Link to={item.url}>{item.text}</Link>
+const renderNavBar = (item,index) => <Link key={index} to={item.url}>{item.text}</Link>
 
-const renderRoutes = (item) => <Route exact={item.exact} path={item.url} component={item.component} />
+const renderRoutes = (item,index) => <Route key={index} exact={item.exact} path={item.url} component={item.component} />
 
 const Navigator = () => (
   <Router>
