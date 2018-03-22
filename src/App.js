@@ -5,7 +5,7 @@ import Navigator from './components/navigator/Navigator.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
 
         <Navigator />
 

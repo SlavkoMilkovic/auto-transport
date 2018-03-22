@@ -1,0 +1,20 @@
+.navigator-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+
+}
+
+.navigator-logo {
+	height: 8vh;
+}
+
+.navigator-nav-item {
+	margin-right: 10px;
+	color: white;
+}

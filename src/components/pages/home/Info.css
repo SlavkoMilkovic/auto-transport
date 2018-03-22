@@ -1,0 +1,59 @@
+.info-container {
+	background-image: url("../../../assets/images/road.jpg");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.info-text-container {
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	margin-top: auto;
+}
+
+.info-text-container h1 {
+	font-size: 40px;
+}
+
+.info-text-container span {
+	height: 1px;
+	width: 20vh;
+	background-color: white;
+}
+
+.info-text-container p {
+	font-size: 15px;
+}
+
+#info-triangle-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+}
+
+#info-triangle-left {
+	width: 0;
+	height: 0;
+	border-bottom: 20vh solid white;
+	border-right: 50vw solid transparent;
+	background-color: transparent;
+}
+
+#info-triangle-right {
+	width: 0;
+	height: 0;
+	border-bottom: 20vh solid white;
+	border-left: 50vw solid transparent;
+	background-color: transparent;
+}
