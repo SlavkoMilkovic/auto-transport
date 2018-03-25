@@ -1,0 +1,10 @@
+.commercials-container {
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.commercialImage-container {
+	height: 60vh;
+	width: 50vw;
+}
