@@ -1,5 +1,6 @@
 .advantages-container {
 	height: 35vh;
+	width: 100vw;
 	margin-top: 7vh;
 	display: flex;
 	flex-direction: row;
