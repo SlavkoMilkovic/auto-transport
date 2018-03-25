@@ -5,7 +5,7 @@ import FaBookmark from 'react-icons/lib/fa/bookmark';
 const HighQuality = () => {
 	return (
 		<div className="highQuality-container">
-			<div style={{color: '#df4d2e'}}>
+			<div style={{color: '#242424'}}>
 				<FaBookmark size={40} />
 			</div>
 			<h5>Visoki kvalitet</h5>

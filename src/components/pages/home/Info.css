@@ -11,6 +11,14 @@
 
 }
 
+.compName-container {
+	background-color: red;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	
+}
+
 .info-text-container {
 	width: 40vw;
 	display: flex;

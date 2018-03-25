@@ -5,7 +5,7 @@ import MdDoneAll from 'react-icons/lib/md/done-all';
 const GreatSelection = () => {
 	return (
 		<div className="greatSelection-container">
-			<div style={{color: '#df4d2e'}}>
+			<div style={{color: '#242424'}}>
 				<MdDoneAll size={40} />
 			</div>
 			<h5>Odličan izbor</h5>

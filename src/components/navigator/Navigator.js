@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import logo from '../../assets/images/logo.jpg';
 import './Navigator.css';
 import Home from '../pages/home/Home.js';
 import About from '../pages/about/About.js';
@@ -39,7 +38,6 @@ const Navigator = () => (
     <div>
 
       <div className="navigator-container">
-        <img className="navigator-logo" src={logo} alt="logo" />
         <div>      
           {pages.map(renderNavBar)}
         </div> 

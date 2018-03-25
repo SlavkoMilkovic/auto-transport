@@ -1,20 +1,19 @@
 .navigator-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
 	height: 10vh;
 	width: 100%;
 	background-color: transparent;
 	position: absolute;
+	text-align: right;
+	margin-top: 4vh;
+
 
 }
 
-.navigator-logo {
-	height: 8vh;
-}
 
 .navigator-nav-item {
-	margin-right: 10px;
+	margin-right: 45px;
 	color: white;
+	text-decoration: none;
+	font-size: 3vh;
+	
 }
