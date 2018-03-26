@@ -12,11 +12,18 @@
 }
 
 .compName-container {
-	background-color: red;
+	width: 20vw;
 	display: flex;
 	text-align: center;
-	justify-content: center;
+	justify-content: space-around;
 	
+}
+
+
+.logo-container {
+	background-color: #242424;
+	width: 8vw;
+	border-radius: 15px;
 }
 
 .info-text-container {

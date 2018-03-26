@@ -5,11 +5,11 @@ import MdPayment from 'react-icons/lib/md/payment';
 const LowestPrices = () => {
 	return (
 		<div className="lowestPrices-container">
-			<div style={{color: '#242424'}}>
+			<div style={{color: '#593910'}}>
 				<MdPayment size={40} />
 			</div>
 			<h5>Najnize cene</h5>
-			<p>Nasa kompanija nudi najnize cene</p>
+			<p>Najpovoljniji uslovi za fizička i pravna lica.</p>
 		</div>
 	);
 } 

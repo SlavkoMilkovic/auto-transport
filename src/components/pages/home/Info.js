@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import road from '../../../assets/images/road.jpg';
+import roadnew from '../../../assets/images/roadnew.jpg';
 import './Info.css';
 
 
@@ -8,10 +8,13 @@ class Info extends Component {
 		return (
 			<section className="info-container">
 				<div className="info-text-container">
-					<h1 className="compName-container">selidbe MG</h1>
-					<h4>Lorem ipsum dolor sit amet</h4>
+					<div className="compName-container">
+						<h1>selidbe</h1>
+						<h1 className="logo-container">MG</h1>
+					</div>
+					<h4>auto-transport</h4>
 					<span />
-					<p>Lorem ipsum dolor sit amet, usu ei accumsan appetere. Nam aliquam menandri democritum an, cu nec erat ceteros pertinax. Sed ei placerat expetenda, ad iudico albucius mandamus his, suas noluisse his ad. At epicuri menandri pri, tollit necessitatibus id has, no ius viris definitionem.</p>
+					<p>selidbe MG vam omogućava siguran i bezbedan transport svih vrsta vaše robe uz najpovoljnije uslove. Posedujemo sve tipove vozila, kombi, kamion, pick-up. Sa nama je svaki dogovor moguć.</p>
 				</div>
 				<div id="info-triangle-container">
 					<div id="info-triangle-left" />
