@@ -14,7 +14,7 @@ class Info extends Component {
 					</div>
 					<h4>auto-transport</h4>
 					<span />
-					<p>selidbe MG vam omogućava siguran i bezbedan transport svih vrsta vaše robe uz najpovoljnije uslove. Posedujemo sve tipove vozila, kombi, kamion, pick-up. Sa nama je svaki dogovor moguć.</p>
+					<p>selidbe MG vam omogućava siguran i bezbedan transport vaše robe uz najpovoljnije uslove. Posedujemo sve tipove vozila, kombi, kamion, pick-up. Sa nama je svaki dogovor moguć.</p>
 				</div>
 				<div id="info-triangle-container">
 					<div id="info-triangle-left" />

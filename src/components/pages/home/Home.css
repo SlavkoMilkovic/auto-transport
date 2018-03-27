@@ -1,5 +1,11 @@
 .fakeNavbar {
-	margin-top: 11vh;
+	margin-top: 5vh;
 	height: 30px;
 	background-color: #242424;
+}
+
+.fakeNavbarbottom {
+	margin-top: 1.5vh;
+	height: 30px;
+	background-color: #242424;	
 }

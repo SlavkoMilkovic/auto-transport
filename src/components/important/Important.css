@@ -1,0 +1,11 @@
+.important-container {
+	margin-top: 9vh;
+	margin-bottom: 9vh;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	margin-left: 2vw;
+	margin-right: 2vw;
+
+}
