@@ -6,3 +6,9 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.greatSelectionLogo {
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+}

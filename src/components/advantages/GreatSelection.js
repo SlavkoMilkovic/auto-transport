@@ -5,10 +5,10 @@ import MdDoneAll from 'react-icons/lib/md/done-all';
 const GreatSelection = () => {
 	return (
 		<div className="greatSelection-container">
-			<div style={{color: '#593910'}}>
+			<div className="greatSelectionLogo" style={{color: '#593910'}}>
 				<MdDoneAll size={40} />
 			</div>
-			<h5>Odličan izbor</h5>
+			<h4>Odličan izbor</h4>
 			<p>Tačnost, profesionalnost, iskustvo.</p>
 		</div>
 	);

@@ -1,14 +1,40 @@
-.working-container {
-	width: 50vw;
+.sectionWorking {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	width: 50vw;
+
+}
+
+.working-container {
+	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 }
 
+.firstHeadWorking {
+	text-align: center;
+	color: #593910;
+}
+
 .workingText-container {
-	height: 30vh;
+	height: 10vh;
 	width: 40vw;
-	margin-left: 4vw;
-	margin-top: 4vh;
+	margin-left: 2vw;
+	color: #593910;
+}
+
+.workingList-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1vh;
+	color: #593910;
+	margin-bottom: 3vh;
+
+}
+
+.secondHeadWorking {
+	text-align: center;
+	margin-bottom: 1vh;
+	color: #593910;
+
 }

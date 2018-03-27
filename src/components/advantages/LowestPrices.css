@@ -7,3 +7,8 @@
 	justify-content: center;
 }
 
+.lowestPricesLogo {
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+}

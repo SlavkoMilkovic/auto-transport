@@ -5,7 +5,7 @@ import MdPayment from 'react-icons/lib/md/payment';
 const LowestPrices = () => {
 	return (
 		<div className="lowestPrices-container">
-			<div style={{color: '#593910'}}>
+			<div className="lowestPricesLogo" style={{color: '#593910'}}>
 				<MdPayment size={40} />
 			</div>
 			<h5>Najnize cene</h5>
