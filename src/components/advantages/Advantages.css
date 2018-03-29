@@ -1,9 +1,7 @@
 .advantages-container {
-	height: 35vh;
-	width: 100vw;
-	margin-top: 7vh;
+	height: 40vh;
+	/*margin-top: 7vh;*/
 	display: flex;
+	flex: 1;
 	flex-direction: row;
-	align-items: center;
-	justify-content: center;
 }

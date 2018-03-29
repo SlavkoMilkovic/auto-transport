@@ -1,6 +1,7 @@
 .info-container {
-	background-image: url("../../../assets/images/road.jpg");
+	background-image: url("../../../assets/images/wallpaper-road2.jpg");
 	background-size: cover;
+	background-size: 100vw 100vh;
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -11,19 +12,23 @@
 
 }
 
-.compName-container {
+.company-name-container {
 	width: 20vw;
 	display: flex;
-	text-align: center;
+	flex-direction: row;
+	align-items: center;
 	justify-content: space-around;
 	
 }
 
 
 .logo-container {
-	background-color: #242424;
+	background-color: black;
+	color: red;
 	width: 8vw;
 	border-radius: 15px;
+	border: 1px solid red;
+	margin-left: 10px;
 }
 
 .info-text-container {
@@ -39,16 +44,17 @@
 
 .info-text-container h1 {
 	font-size: 40px;
+
 }
 
 .info-text-container span {
 	height: 1px;
 	width: 20vh;
-	background-color: white;
+	background-color: red;
 }
 
 .info-text-container p {
-	font-size: 15.5px;
+	font-size: 20px;
 	line-height: 1.6;
 }
 

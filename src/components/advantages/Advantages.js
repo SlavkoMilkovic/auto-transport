@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Advantages.css';
 import GreatSelection from './GreatSelection.js';
-import HighQuality from './HighQuality.js';
-import LowestPrices from './LowestPrices.js';
 
 
 class App extends Component {
@@ -11,8 +9,7 @@ class App extends Component {
       <div className="advantages-container">
 
         <GreatSelection />
-        <HighQuality />
-        <LowestPrices />
+
 
       </div>
     );

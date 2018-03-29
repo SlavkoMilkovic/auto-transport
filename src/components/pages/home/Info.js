@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import roadnew from '../../../assets/images/roadnew.jpg';
 import './Info.css';
 
 
@@ -8,13 +7,13 @@ class Info extends Component {
 		return (
 			<section className="info-container">
 				<div className="info-text-container">
-					<div className="compName-container">
-						<h1>selidbe</h1>
+					<div className="company-name-container">
+						<h1>SELIDBE</h1>
 						<h1 className="logo-container">MG</h1>
 					</div>
-					<h4>auto-transport</h4>
+					<h3>auto-transport</h3>
 					<span />
-					<p>Selidbe MG vam omogućava siguran i bezbedan transport vaše robe uz najpovoljnije uslove. Posedujemo sve tipove vozila, kombi, kamion, pick-up. Sa nama je svaki dogovor moguć.</p>
+					<p>Selidbe MG vam nudi siguran i bezbedan transport vaše robe uz najpovoljnije uslove. Posedujemo sve tipove vozila, kombi, kamion, pick-up. Sa nama je svaki dogovor moguć.</p>
 				</div>
 				<div id="info-triangle-container">
 					<div id="info-triangle-left" />

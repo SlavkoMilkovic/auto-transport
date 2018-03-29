@@ -1,14 +1,33 @@
-.greatSelection-container {
-	height: 20vh;
-	width: 30vw;
+.great-selection-item {
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.greatSelectionLogo {
+.great-selection-icon {
 	border-width: 1px;
 	border-style: solid;
 	padding: 5px;
+	color: black;
+}
+
+.great-selection-item h5 {
+	margin: 0;
+	font-size: 25px;
+	margin-top: 12px;
+}
+
+.great-selection-item p {
+	margin: 0;
+	margin-top: 12px;
+	font-size: 20px;
+}
+
+.great-selection-list {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	margin-top: 0px;
 }

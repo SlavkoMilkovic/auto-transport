@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, NavLink, Nav } from "react-router-dom";
 import './Navigator.css';
 import Home from '../pages/home/Home.js';
 import About from '../pages/about/About.js';
@@ -29,27 +29,43 @@ const pages = [{
   component: Contact
 }];
 
-const renderNavBar = (item,index) => <Link className="navigator-nav-item" key={index} to={item.url}>{item.text}</Link>
+class Navigator extends Component {
 
-const renderRoutes = (item,index) => <Route key={index} exact={item.exact} path={item.url} component={item.component} />
+  renderNavBar = (item, index) =>
+    <NavLink 
+      exact={item.exact}
+      onMouseOver={this.handleMouseOver} 
+      activeStyle={{ color: 'red' }} 
+      className={"navigator-nav-item"}
+      key={index} 
+      to={item.url}
+    >
+      {item.text}
+    </NavLink>
+  
 
-const Navigator = () => (
-  <Router>
-    <div>
+  renderRoutes = (item,index) => <Route key={index} exact={item.exact} path={item.url} component={item.component} />
 
-      <div className="navigator-container">
-        <div>      
-          {pages.map(renderNavBar)}
-        </div> 
-      </div>
+  render(){
+    return (
+      <Router>
+        <div>
 
-      <div>    
-       {pages.map(renderRoutes)}
-      </div>
+          <div className="navigator-container">
+            <div>      
+              {pages.map(this.renderNavBar)}
+            </div> 
+          </div>
 
-    </div>
-  </Router>
-);
+          <div>    
+           {pages.map(this.renderRoutes)}
+          </div>
+
+        </div>
+      </Router>
+    );
+  }
+}
 
 export default Navigator;
 

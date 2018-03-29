@@ -17,3 +17,13 @@
 	font-size: 3vh;
 	
 }
+
+.navigator-nav-item:hover {
+	margin-right: 45px;
+	color: white;
+	text-decoration: none;
+	font-size: 3vh;
+	border-bottom: 1px solid red;
+	
+}
+
